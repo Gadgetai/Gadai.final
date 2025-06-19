@@ -1,0 +1,50 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.buildlog/
+.melos_tool/
+
+# Build outputs
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+android/app/debug
+android/app/profile
+android/app/release
+
+# iOS
+Pods/
+DerivedData/
+.xcworkspace/
+*.xcworkspace
+*.lock
+*.hmap
+*.ipa
+
+# Android
+.gradle/
+*.iml
+.idea/
+local.properties
+
+# VS Code
+.vscode/
+
+# Others
+*.log
+*.DS_Store
+*.class
+*.jar
+*.swp
+*.lock
+*.tmp
+*.temp
+*.orig
+
+# Environment files
+.env
+.env.*
