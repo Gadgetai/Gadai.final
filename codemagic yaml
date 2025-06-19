@@ -1,0 +1,20 @@
+workflows:
+  build-android:
+    name: Build Gad Ai Android
+    max_build_duration: 30
+    environment:
+      flutter: stable
+      xcode: latest
+      android_signing:
+        keystore_reference: keystore_reference_here
+      vars:
+        PACKAGE_NAME: "com.gadya.gadai"
+    scripts:
+      - name: Install dependencies
+        script: |
+          flutter pub get
+      - name: Build APK
+        script: |
+          flutter build apk --release
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
