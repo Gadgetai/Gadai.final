@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   provider: ^6.1.1
-  http: ^0.13.6
+  http: ^1.2.0 # VERSI INI SAYA UBAH DARI ^0.13.6 KE ^1.2.0
   google_fonts: ^6.2.0
   camera: ^0.10.5
   image_picker: ^1.1.1
